@@ -1,0 +1,54 @@
+Pseudocodigo BARBERIA ELEGANCE
+    Definir opcion Como Entero
+    Definir nombre, telefono, fecha, hora Como Cadena
+    
+    Repetir
+        Escribir "----- PAGINA WEB BARBERIA ELEGANCE -----"
+        Escribir "1. Ver servicios"
+        Escribir "2. Información de la barbería"
+        Escribir "3. Contacto"
+        Escribir "4. Agendar cita"
+        Escribir "5. Salir"
+        Escribir "Seleccione una opción:"
+        Leer opcion
+        
+        Segun opcion Hacer
+            1:
+                Escribir "Servicios disponibles y precios:"
+                Escribir "- Corte de Cabello Regular ..... $150"
+                Escribir "- Perfilado y Ritual de Barba .. $100"
+                Escribir "- Combo Elegance (Corte+Barba) . $220"
+                Escribir "- Tratamiento Facial Negro ..... $80"
+            2:
+                Escribir "Información de la sucursal:"
+                Escribir "Ubicación: Blvd. Benito Juárez, Playas de Rosarito"
+                Escribir "Horario: Lunes a Sábado de 10:00 AM a 8:00 PM"
+            3:
+                Escribir "Contacto directo:"
+                Escribir "Teléfono / WhatsApp: 661-987-6543"
+                Escribir "Correo: contacto@barberiaelegance.com"
+            4:
+                Escribir "--- MODULO DE CITAS ---"
+                Escribir "Ingrese su nombre:"
+                Leer nombre
+                Escribir "Ingrese su teléfono:"
+                Leer telefono
+                Escribir "Ingrese la fecha de la cita (DD/MM):"
+                Leer fecha
+                Escribir "Ingrese la hora de la cita (HH:MM):"
+                Leer hora
+                
+                Si nombre!="" Y telefono!="" Y fecha!="" Y hora!="" Entonces
+                    Escribir "¡CITA AGENDADA CORRECTAMENTE!"
+                    Escribir "Cliente: ", nombre
+                    Escribir "Teléfono: ", telefono
+                    Escribir "Fecha: ", fecha, " a las ", hora, " hrs."
+                Sino
+                    Escribir "Error: Todos los campos del turno son obligatorios."
+                FinSi
+            5:
+                Escribir "Gracias por visitarnos. ¡Te esperamos pronto!"
+        FinSegun
+        Escribir ""
+    Hasta Que opcion == 5
+FinAlgoritmo
