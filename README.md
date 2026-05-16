@@ -2,7 +2,6 @@
 **Institución:** CECYTE Baja California  
 **Fecha:** Mayo 2026  
 **Entregable:** Documentación previa y análisis de desarrollo de Página WEB  
-**Presentado a:** Lic. Juan Rodriguez Paredes  
 
 ---
 
