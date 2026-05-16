@@ -5,11 +5,11 @@
 
 ---
 
-## 📋 1. Análisis de Requisitos
+## 1. Análisis de Requisitos
 * **Necesidad:** El establecimiento actualmente presenta una baja visibilidad en el mercado debido a la falta de presencia digital. Los clientes se ven obligados a agendar citas por teléfono o esperar largas filas en el local, limitando las oportunidades de captar nuevos clientes.
 * **Objetivo:** Desarrollar una página web informativa y funcional que permita aumentar la visibilidad del negocio en internet, mostrar el catálogo de servicios y facilitar el agendamiento de citas en línea para los usuarios.
 
-## 🔍 2. Definición del Problema
+## 2. Definición del Problema
 ### Datos de Entrada
 * Falta de presencia digital de la barbería.
 * Bajo nivel de visibilidad en internet y redes.
@@ -29,7 +29,7 @@
 
 ---
 
-## ⚙️ 3. Algoritmo Lógico del Sistema
+## 3. Algoritmo Lógico del Sistema
 
 1. Mostrar página de inicio con menú de bienvenida.
 2. Mostrar menú con opciones:
@@ -39,6 +39,7 @@
    * **4. Agendar cita:** Iniciar módulo de reserva de turnos.
    * **5. Salir**
 3. Esperar acción del usuario.
+
 4. **Si** el usuario selecciona "Ver Servicios", **entonces**:
    * Mostrar lista de tratamientos estéticos masculinos y sus respectivos costos.
 5. **Si** el usuario selecciona "Información del local", **entonces**:
