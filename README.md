@@ -14,7 +14,17 @@
   - [3.1 Estructura del Menú Principal](#31-estructura-del-menú-principal)
   - [3.2 Flujo de Opciones y Navegación](#32-flujo-de-opciones-y-navegación)
   - [3.3 Módulo de Agendamiento de Citas (Lógica de Validación)](#33-módulo-de-agendamiento-de-citas-lógica-de-validación)
- 
+  - 
+  - # Propuesta de solucion
+ Para resolver la baja visibilidad y captacion de clientes, se propone el desarrollo de una pagina web profesional para la barberia, que funcionara como canal digital de promocion y comunicacion.
+La plataforma incluira los servicios (cortes, barba), precios, ubicacion, horarios y la integracion de un sistema de agendamiento de citas em linea.
+Asimismo, se complementara con estrategias de marketing digital (SEO local y vinculacion con redes sociales como instagram o Tik Tok) para aumentar el alcance y atraer a mas usuarios interesados
+Con esta solucion, la barberia mejorara su presencia en internet, generara mayor confianza y aumentara el numero de citas, contribuyendo a su crecimiento y competividad.
+
+ # Finalidad del proyecto
+ La finalidad del proyecto es desarrollar una pagina web para la barberia que permita aumentar su visibilidad en internet y facilitar el acceso a informacion relevante para los clientes.
+ A traves de esta plataforma, se busca promocionar los servicios, mejorar la comunicacion con los usuarios y ofrecer opciones como el agendamiento de citas em linea.
+ Con ello la barberia podra atraer a mas clientes, fortalecer su imagen profesional y mejorar su competividad en el mercado.
 
 ---
 
@@ -22,7 +32,32 @@
 * **Necesidad:** El establecimiento actualmente presenta una baja visibilidad en el mercado debido a la falta de presencia digital. Los clientes se ven obligados a agendar citas por teléfono o esperar largas filas en el local, limitando las oportunidades de captar nuevos clientes.
 * **Objetivo:** Desarrollar una página web informativa y funcional que permita aumentar la visibilidad del negocio en internet, mostrar el catálogo de servicios y facilitar el agendamiento de citas en línea para los usuarios.
 
-## 2. Definición del Problema
+# 2. Diseno del sistema 
+*Estructura del software
+El sistema sera modular y se dividira en tres partes:
+
+*Modulo de cliente: Para ver servicios, precios y agendar citas.
+*Modulo de administrador: Para que el barbero gestione la egenda y horarios.
+*Modulo de notificaciones: Para enviar confirmaciones y recordatorios automaticos.
+
+Interfaz (diseno UX\UI)
+* Estetica: Estilo moderno y limpio, con colores que identifiquen a la barberia.
+* Navegacion: Menu sencillo (Inicio, servicios, equipo) optimizado para celulares, con un boton destacado de "agendar cita".
+
+   Base de datos
+  Se usara una base de datos relacional con las siguientes tablas:
+  * Clientes: Datos de contacto e historial.
+  * Barberos: Nombres, especialidades y horarios.
+  * Servicos: Tipos de corte, precios y duracion.
+  * Citas: Registro de que cliente se atiende, con que barbero, la fecha y hora.
+    Arquitectura
+  * Frontend: Pantallas rapidas y faciles de usar para el usuario.
+  * Backend: Logica que procesa las reservas y evita que se dupliquen citas a la misma hora.
+  * Integracion: Conexion con mensajeria (como WhatsApp o coreo) para enviar los recordatorios de las citas.  
+
+## 3. Definición del Problema
+El negocio carece de presencia digital y de un sistema automatizado de reservas. Esto provoca dos problemas principales: la perdida de clientes potenciales que buscan barberias en internet y la desorganizacion de la agenda al gestionar las citas manualmente.
+
 ### Datos de Entrada
 * Falta de presencia digital de la barbería.
 * Bajo nivel de visibilidad en internet y redes.
@@ -42,7 +77,7 @@
 
 ---
 
-## 3. Algoritmo Lógico del Sistema
+## 4. Algoritmo\Pseudocodigo Lógico del Sistema
 
 1. Mostrar página de inicio con menú de bienvenida.
 2. Mostrar menú con opciones:
@@ -71,3 +106,4 @@
 8. Preguntar si desea realizar otra acción en la página.
 9. **Si** la respuesta es afirmativa, regresar al paso 2 (Menú principal).
 10. **Si no**, finalizar la ejecución de la sesión.
+    
