@@ -1,7 +1,19 @@
 <img width="563" height="298" alt="screenshot-1775444271894" src="https://github.com/user-attachments/assets/91297c6d-0ea2-4afb-be80-e991ec2a4822" />
 
 
+# 📋 Índice del Proyecto
 
+- [1. Análisis de Requisitos](#1-análisis-de-requisitos)
+  - [1.1 Necesidad del Negocio](#11-necesidad-del-negocio)
+  - [1.2 Objetivo del Proyecto](#12-objetivo-del-proyecto)
+- [2. Definición del Problema](#2-definición-del-problema)
+  - [2.1 Datos de Entrada (Estado Actual)](#21-datos-de-entrada-estado-actual)
+  - [2.2 Proceso de Análisis y Estrategia](#22-proceso-de-análisis-y-estrategia)
+  - [2.3 Datos de Salida (Solución Propuesta)](#23-datos-de-salida-solución-propuesta)
+- [3. Algoritmo Lógico del Sistema](#3-algoritmo-lógico-del-sistema)
+  - [3.1 Estructura del Menú Principal](#31-estructura-del-menú-principal)
+  - [3.2 Flujo de Opciones y Navegación](#32-flujo-de-opciones-y-navegación)
+  - [3.3 Módulo de Agendamiento de Citas (Lógica de Validación)](#33-módulo-de-agendamiento-de-citas-lógica-de-validación)
  
 
 ---
