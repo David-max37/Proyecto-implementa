@@ -1,8 +1,6 @@
-<img width="447" height="447" alt="17789878123207048598283800747277" src="https://github.com/user-attachments/assets/1a025a12-6640-4246-aa97-2c2f6971d4ff" />
+11nBPri779FmIy-GlpV2HMlxPCu43LWWF5yrzpu-EuMw/edit?tab=t.0
 
-**Institución:** CECYTE Baja California  
-**Fecha:** Mayo 2026  
-**Entregable:** Documentación previa y análisis de desarrollo de Página WEB  
+ 
 
 ---
 
