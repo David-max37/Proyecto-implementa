@@ -14,18 +14,6 @@
   - [3.1 Estructura del Menú Principal](#31-estructura-del-menú-principal)
   - [3.2 Flujo de Opciones y Navegación](#32-flujo-de-opciones-y-navegación)
   - [3.3 Módulo de Agendamiento de Citas (Lógica de Validación)](#33-módulo-de-agendamiento-de-citas-lógica-de-validación)
-  - 
-  - # Propuesta de solucion
- Para resolver la baja visibilidad y captacion de clientes, se propone el desarrollo de una pagina web profesional para la barberia, que funcionara como canal digital de promocion y comunicacion.
-La plataforma incluira los servicios (cortes, barba), precios, ubicacion, horarios y la integracion de un sistema de agendamiento de citas em linea.
-Asimismo, se complementara con estrategias de marketing digital (SEO local y vinculacion con redes sociales como instagram o Tik Tok) para aumentar el alcance y atraer a mas usuarios interesados
-Con esta solucion, la barberia mejorara su presencia en internet, generara mayor confianza y aumentara el numero de citas, contribuyendo a su crecimiento y competividad.
-
- # Finalidad del proyecto
- La finalidad del proyecto es desarrollar una pagina web para la barberia que permita aumentar su visibilidad en internet y facilitar el acceso a informacion relevante para los clientes.
- A traves de esta plataforma, se busca promocionar los servicios, mejorar la comunicacion con los usuarios y ofrecer opciones como el agendamiento de citas em linea.
- Con ello la barberia podra atraer a mas clientes, fortalecer su imagen profesional y mejorar su competividad en el mercado.
-
 ---
 
 ## 1. Análisis de Requisitos
@@ -53,7 +41,14 @@ Interfaz (diseno UX\UI)
     Arquitectura
   * Frontend: Pantallas rapidas y faciles de usar para el usuario.
   * Backend: Logica que procesa las reservas y evita que se dupliquen citas a la misma hora.
-  * Integracion: Conexion con mensajeria (como WhatsApp o coreo) para enviar los recordatorios de las citas.  
+  * Integracion: Conexion con mensajeria (como WhatsApp o coreo) para enviar los recordatorios de las citas.
+ 
+  ---
+# Finalidad del proyecto
+ La finalidad del proyecto es desarrollar una pagina web para la barberia que permita aumentar su visibilidad en internet y facilitar el acceso a informacion relevante para los clientes.
+ A traves de esta plataforma, se busca promocionar los servicios, mejorar la comunicacion con los usuarios y ofrecer opciones como el agendamiento de citas em linea.
+ Con ello la barberia podra atraer a mas clientes, fortalecer su imagen profesional y mejorar su competividad en el mercado.
+ ---
 
 ## 3. Definición del Problema
 El negocio carece de presencia digital y de un sistema automatizado de reservas. Esto provoca dos problemas principales: la perdida de clientes potenciales que buscan barberias en internet y la desorganizacion de la agenda al gestionar las citas manualmente.
@@ -76,6 +71,11 @@ El negocio carece de presencia digital y de un sistema automatizado de reservas.
 * Objetivo cumplido de automatizar las citas, optimizar tiempos de espera y mejorar la competitividad.
 
 ---
+- # Propuesta de solucion
+ Para resolver la baja visibilidad y captacion de clientes, se propone el desarrollo de una pagina web profesional para la barberia, que funcionara como canal digital de promocion y comunicacion.
+La plataforma incluira los servicios (cortes, barba), precios, ubicacion, horarios y la integracion de un sistema de agendamiento de citas em linea.
+Asimismo, se complementara con estrategias de marketing digital (SEO local y vinculacion con redes sociales como instagram o Tik Tok) para aumentar el alcance y atraer a mas usuarios interesados
+Con esta solucion, la barberia mejorara su presencia en internet, generara mayor confianza y aumentara el numero de citas, contribuyendo a su crecimiento y competividad.
 
 ## 4. Algoritmo\Pseudocodigo Lógico del Sistema
 
